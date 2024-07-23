@@ -2,15 +2,23 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+
+
 .calculator-container{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+    
 
     background-color: lightslategrey;
     width: 500px;
     height: 500px;
     border: 2px solid black;
     border-radius: 5px;
+}
+
+.bottom{
+    display: flex;
+
 }
 
 .digit-btn{
@@ -21,12 +29,14 @@
 
 .digits-container{
     display: flex;
-    background-color: gray;
     flex-wrap: wrap;
+    background-color: grey;
+    width: 250px;
 }
 
 .operations-container{
-    display: flex;
+    background-color: white;
+    margin: 10px;
 }
 
 .results{
