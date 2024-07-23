@@ -45,5 +45,9 @@ const digitBtns = document.querySelectorAll(".digit-btn");
 
 digitBtns.forEach((btnItem) => {
     console.log(btnItem.textContent)
+
+    btnItem.addEventListener("click", () =>{
+        console.log(btnItem.textContent, "was clicked")
+    });
 });
 
