@@ -63,14 +63,16 @@ operationBtns.forEach((btnItem) => {
     btnItem.addEventListener("click", () => {
         console.log(btnItem.textContent, "was clicked")
 
+        if(Operation === "" ){
+            display.textContent += btnItem.textContent;
+        }
+
         if(Number1 === 0){
             Number1 = parseInt(display.textContent);
             console.log("number 1 is:", Number1);
             Operation = btnItem.textContent;
             console.log("operation is:", Operation)
         } 
-
-        display.textContent += btnItem.textContent;
     });
 });
 
