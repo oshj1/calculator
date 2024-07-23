@@ -25,6 +25,8 @@
     background-color: white;
     margin: 10px;
     padding: 20px;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
 .digits-container{
@@ -39,12 +41,14 @@
 .operations-container{
     background-color: rgb(182, 182, 182);
     margin: 10px;
+    
 }
 
 .operation{
     margin: 10px;
     background-color: white;
     padding: 10px;
+    font-weight: bold;
 }
 
 .results{
