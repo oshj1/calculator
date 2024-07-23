@@ -2,8 +2,6 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-
-
 .calculator-container{
     display: flex;
     flex-direction: column;
@@ -28,6 +26,10 @@
     padding: 20px;
     border-radius: 2px;
     font-weight: bold;
+}
+
+.digit-btn:hover{
+    background-color: rgb(235, 235, 235);
 }
 
 .digits-container{
