@@ -78,6 +78,9 @@ operationBtns.forEach((btnItem) => {
 // equals btn event
 equalsBtn.addEventListener("click", () =>{
     if(Number2 === 0){
+        let resultString = display.textContent.split(Operation);
+        Number2 = parseInt(resultString[1]);
 
+        console.log("number 2 is:", Number2);
     }
 });
