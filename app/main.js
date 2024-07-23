@@ -42,6 +42,7 @@ function operate(operator, num1, num2){
 
 const display = document.querySelector(".display");
 const digitBtns = document.querySelectorAll(".digit-btn");
+const operationBtns = document.querySelectorAll(".operation");
 
 digitBtns.forEach((btnItem) => {
     console.log(btnItem.textContent)
@@ -52,3 +53,11 @@ digitBtns.forEach((btnItem) => {
     });
 });
 
+operationBtns.forEach((btnItem) => {
+    console.log(btnItem.textContent)
+
+    btnItem.addEventListener("click", () => {
+        console.log(btnItem.textContent, "was clicked")
+        display.textContent += btnItem.textContent;
+    });
+});
