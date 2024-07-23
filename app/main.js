@@ -40,3 +40,9 @@ function operate(operator, num1, num2){
     return result;
 }
 
+const display = document.querySelector(".display");
+const digitBtns = document.querySelectorAll(".digit-btn");
+
+digitBtns.forEach((btnItem) =>{
+    console.log(btnItem.textContent);
+});
