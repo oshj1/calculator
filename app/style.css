@@ -13,6 +13,7 @@
 
 .digits-container{
     display: flex;
+    background-color: gray;
 }
 
 .operations-container{
