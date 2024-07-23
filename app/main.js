@@ -46,3 +46,4 @@ const digitBtns = document.querySelectorAll(".digit-btn");
 digitBtns.forEach((btnItem) => {
     console.log(btnItem.textContent)
 });
+
