@@ -48,6 +48,7 @@ digitBtns.forEach((btnItem) => {
 
     btnItem.addEventListener("click", () =>{
         console.log(btnItem.textContent, "was clicked")
+        display.textContent += btnItem.textContent;
     });
 });
 
