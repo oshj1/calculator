@@ -90,6 +90,7 @@ equalsBtn.addEventListener("click", () =>{
         display.textContent = result;
         Number1=0;
         Number2=0;
+        Operation="";
     }
 });
 
