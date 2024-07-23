@@ -15,5 +15,15 @@ function divide(num1, num2){
 }
 
 function operate(operator, num1, num2){
+    if (operator === "+"){
 
+    } 
+    
+    else if (operator === "-"){
+
+    } 
+
+    else if (operator === "/"){
+
+    }
 }
