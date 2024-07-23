@@ -27,6 +27,8 @@
     border-radius: 2px;
     font-weight: bold;
     min-width: 30px;
+    text-align: center;
+    font-size: 28px;
 }
 
 .digit-btn:hover{
@@ -38,27 +40,33 @@
     flex-wrap: wrap;
     background-color: grey;
     width: 300px;
-    border: 2px solid black;
     margin: 0.5px;
     align-items: center;
     justify-content: center;
 }
 
 .operations-container{
-    background-color: rgb(182, 182, 182);
-    margin: 10px;
-    border: 2px solid black;
+    background-color: rgba(116, 0, 0, 0.863);
+    width: 99px;
+    align-self: baseline;
+    height: auto;
 }
 
 .operation{
     margin: 10px;
-    background-color: white;
-    padding: 10px;
+    background-color: rgb(255, 102, 0);
+    padding: 27.8px;
     font-weight: bold;
+    text-align: center;
+    font-size:28px;
+}
+
+.operation:hover{
+    background-color: rgb(235, 235, 235);
 }
 
 .display{
     background-color: rgba(147, 253, 121, 0.438);
-    height: 50px;
+    height: 80px;
     font-size: 20px;
 }
