@@ -67,6 +67,8 @@ operationBtns.forEach((btnItem) => {
         if(Number1 === 0){
             Number1 = parseInt(display.textContent);
             console.log("number 1 is:", Number1);
+            Operation = btnItem.textContent;
+            console.log("operation is:", Operation)
         } 
 
         display.textContent += btnItem.textContent;
@@ -74,3 +76,8 @@ operationBtns.forEach((btnItem) => {
 });
 
 // equals btn event
+equalsBtn.addEventListener("click", () =>{
+    if(Number2 === 0){
+
+    }
+});
