@@ -43,7 +43,8 @@ function operate(operator, num1, num2){
 const display = document.querySelector(".display");
 const digitBtns = document.querySelectorAll(".digit-btn");
 const operationBtns = document.querySelectorAll(".operation");
-const equalsBtn = document.querySelector("#equals-btn")
+const equalsBtn = document.querySelector("#equals-btn");
+const clearBtn = document.querySelector("#clear-btn");
 
 
 // digit btns events
@@ -88,4 +89,11 @@ equalsBtn.addEventListener("click", () =>{
         Number1=0;
         Number2=0;
     }
+});
+
+clearBtn.addEventListener("click", () => {
+    display.textContent = "";
+    Number1=0;
+    Number2=0;
+    Operation = "";
 });
