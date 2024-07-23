@@ -43,6 +43,6 @@ function operate(operator, num1, num2){
 const display = document.querySelector(".display");
 const digitBtns = document.querySelectorAll(".digit-btn");
 
-digitBtns.forEach((btnItem) =>{
-    console.log(btnItem.textContent);
+digitBtns.forEach((btnItem) => {
+    console.log(btnItem.textContent)
 });
