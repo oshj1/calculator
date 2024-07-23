@@ -18,7 +18,8 @@
 
 .bottom{
     display: flex;
-
+    justify-content: baseline;
+    align-items: center;
 }
 
 .digit-btn{
@@ -41,7 +42,7 @@
 .operations-container{
     background-color: rgb(182, 182, 182);
     margin: 10px;
-    
+    border: 2px solid black;
 }
 
 .operation{
