@@ -44,20 +44,30 @@ const display = document.querySelector(".display");
 const digitBtns = document.querySelectorAll(".digit-btn");
 const operationBtns = document.querySelectorAll(".operation");
 
+
+// digit btns events
 digitBtns.forEach((btnItem) => {
     console.log(btnItem.textContent)
 
     btnItem.addEventListener("click", () =>{
+
         console.log(btnItem.textContent, "was clicked")
         display.textContent += btnItem.textContent;
     });
 });
 
+// operation btns events
 operationBtns.forEach((btnItem) => {
     console.log(btnItem.textContent)
 
     btnItem.addEventListener("click", () => {
         console.log(btnItem.textContent, "was clicked")
+
+        if(Number1 === 0){
+            Number1 = parseInt(display.textContent);
+            console.log(Number1);
+        } 
+
         display.textContent += btnItem.textContent;
     });
 });
