@@ -22,22 +22,22 @@ function operate(operator, num1, num2){
    let result = 0;
    
     if (operator === "+"){
-        let result = add(num1, num2);
+        result = add(num1, num2);
     } 
 
     else if (operator === "-"){
-        let result = subtract(num1, num2);
+        result = subtract(num1, num2);
     } 
 
     else if (operator === "/"){
-        let result = divide(num1, num2);
+        result = divide(num1, num2);
     }
 
     else if (operator === "*"){
-        let result = multiply(num1, num2);
+        result = multiply(num1, num2);
     }
 
     return result;
 }
 
-console.log(operate("+"), 1, 1);
+console.log(operate("+", 1, 1));
