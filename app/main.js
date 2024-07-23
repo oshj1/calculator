@@ -48,7 +48,6 @@ const equalsBtn = document.querySelector("#equals-btn")
 
 // digit btns events
 digitBtns.forEach((btnItem) => {
-    console.log(btnItem.textContent)
 
     btnItem.addEventListener("click", () =>{
 
@@ -59,7 +58,6 @@ digitBtns.forEach((btnItem) => {
 
 // operation btns events
 operationBtns.forEach((btnItem) => {
-    console.log(btnItem.textContent)
 
     btnItem.addEventListener("click", () => {
         console.log(btnItem.textContent, "was clicked")
@@ -82,5 +80,12 @@ equalsBtn.addEventListener("click", () =>{
         Number2 = parseInt(resultString[1]);
 
         console.log("number 2 is:", Number2);
+    } 
+
+    if(Number1 != 0 && Number2 != 0){
+        result = operate(Operation, Number1, Number2);
+        display.textContent = result;
+        Number1=0;
+        Number2=0;
     }
 });
