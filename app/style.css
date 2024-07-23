@@ -37,8 +37,14 @@
 }
 
 .operations-container{
-    background-color: white;
+    background-color: rgb(182, 182, 182);
     margin: 10px;
+}
+
+.operation{
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
 }
 
 .results{
