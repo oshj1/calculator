@@ -43,6 +43,7 @@ function operate(operator, num1, num2){
 const display = document.querySelector(".display");
 const digitBtns = document.querySelectorAll(".digit-btn");
 const operationBtns = document.querySelectorAll(".operation");
+const equalsBtn = document.querySelector("#equals-btn")
 
 
 // digit btns events
@@ -65,9 +66,11 @@ operationBtns.forEach((btnItem) => {
 
         if(Number1 === 0){
             Number1 = parseInt(display.textContent);
-            console.log(Number1);
+            console.log("number 1 is:", Number1);
         } 
 
         display.textContent += btnItem.textContent;
     });
 });
+
+// equals btn event
